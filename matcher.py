@@ -30,8 +30,8 @@ def _check_clause(phrase, card):
     warning = None
     if not missing:
         status = 'contradicted' if NEGATION.search(text) else 'confirmed'
-        remainder = re.sub(r'\bне\s+только\b', '', text)
-        if status == 'confirmed' and re.search(r'\bне\b|\bнет\b|\bникогда\b|\bбез\b', remainder):
+        remainder = re.sub(r'\b(?:не\s+только|not\s+only)\b', '', text)
+        if status == 'confirmed' and re.search(r"\b(?:не|нет|никогда|без|not|no|never|without)\b|n['’]t\b", remainder):
             status, warning = 'review', 'Возможное отрицание. Нужен просмотр текста.'
     elif any(found.values()) or any(normalize(term) in text for term in card.get('review_terms', [])):
         status = 'review'
