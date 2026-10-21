@@ -1,0 +1,31 @@
+﻿case,method,ndcg_at_2
+core_banking_direct_vs_broad,Поиск по словам,1.0
+core_banking_direct_vs_broad,Эмбеддинги фраз,1.0
+core_banking_direct_vs_broad,Проверка по карточке,1.0
+banking_direct_vs_fintech,Поиск по словам,0.8262346571285599
+banking_direct_vs_fintech,Эмбеддинги фраз,1.0
+banking_direct_vs_fintech,Проверка по карточке,1.0
+lending_synonyms_and_parent,Поиск по словам,1.0
+lending_synonyms_and_parent,Эмбеддинги фраз,1.0
+lending_synonyms_and_parent,Проверка по карточке,1.0
+loan_origination_vs_lending,Поиск по словам,1.0
+loan_origination_vs_lending,Эмбеддинги фраз,1.0
+loan_origination_vs_lending,Проверка по карточке,1.0
+ecommerce_wording_variants,Поиск по словам,1.0
+ecommerce_wording_variants,Эмбеддинги фраз,1.0
+ecommerce_wording_variants,Проверка по карточке,1.0
+mes_vs_planning,Поиск по словам,1.0
+mes_vs_planning,Эмбеддинги фраз,0.8262346571285599
+mes_vs_planning,Проверка по карточке,0.8262346571285599
+planning_vs_mes,Поиск по словам,1.0
+planning_vs_mes,Эмбеддинги фраз,1.0
+planning_vs_mes,Проверка по карточке,1.0
+medical_records_vs_general_medicine,Поиск по словам,0.7420981285103057
+medical_records_vs_general_medicine,Эмбеддинги фраз,0.7420981285103057
+medical_records_vs_general_medicine,Проверка по карточке,1.0
+healthcare_industry_and_narrower_evidence,Поиск по словам,1.0
+healthcare_industry_and_narrower_evidence,Эмбеддинги фраз,1.0
+healthcare_industry_and_narrower_evidence,Проверка по карточке,1.0
+billing_vs_fintech,Поиск по словам,1.0
+billing_vs_fintech,Эмбеддинги фраз,0.6131471927654584
+billing_vs_fintech,Проверка по карточке,1.0

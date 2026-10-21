@@ -1,0 +1,6171 @@
+{
+  "data": {
+    "rows": 117,
+    "mentions": 695,
+    "unique_phrases": 541,
+    "repaired_rows": 117,
+    "source_sha256": "7128e15c6ca1b6f392c799d8085c629c368ef38a7ca5d1b9f78d8c6cb1a761c5"
+  },
+  "methods": {
+    "Поиск по словам": 0.9568332785638866,
+    "Эмбеддинги фраз": 0.9181479978404324,
+    "Проверка по карточке": 0.982623465712856
+  },
+  "per_case": [
+    {
+      "case": "core_banking_direct_vs_broad",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "core_banking_direct_vs_broad",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "core_banking_direct_vs_broad",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "banking_direct_vs_fintech",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 0.8262346571285599
+    },
+    {
+      "case": "banking_direct_vs_fintech",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "banking_direct_vs_fintech",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "lending_synonyms_and_parent",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "lending_synonyms_and_parent",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "lending_synonyms_and_parent",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "loan_origination_vs_lending",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "loan_origination_vs_lending",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "loan_origination_vs_lending",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "ecommerce_wording_variants",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "ecommerce_wording_variants",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "ecommerce_wording_variants",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "mes_vs_planning",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "mes_vs_planning",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 0.8262346571285599
+    },
+    {
+      "case": "mes_vs_planning",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 0.8262346571285599
+    },
+    {
+      "case": "planning_vs_mes",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "planning_vs_mes",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "planning_vs_mes",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "medical_records_vs_general_medicine",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 0.7420981285103057
+    },
+    {
+      "case": "medical_records_vs_general_medicine",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 0.7420981285103057
+    },
+    {
+      "case": "medical_records_vs_general_medicine",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "healthcare_industry_and_narrower_evidence",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "healthcare_industry_and_narrower_evidence",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "healthcare_industry_and_narrower_evidence",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "billing_vs_fintech",
+      "method": "Поиск по словам",
+      "ndcg_at_2": 1.0
+    },
+    {
+      "case": "billing_vs_fintech",
+      "method": "Эмбеддинги фраз",
+      "ndcg_at_2": 0.6131471927654584
+    },
+    {
+      "case": "billing_vs_fintech",
+      "method": "Проверка по карточке",
+      "ndcg_at_2": 1.0
+    }
+  ],
+  "orders": {
+    "core_banking_direct_vs_broad": {
+      "Поиск по словам": {
+        "selected_order": [
+          79,
+          6,
+          50,
+          83,
+          102
+        ],
+        "top10": [
+          79,
+          6,
+          50,
+          59,
+          82,
+          111,
+          107,
+          108,
+          1,
+          98
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          79,
+          6,
+          50,
+          83,
+          102
+        ],
+        "top10": [
+          79,
+          6,
+          111,
+          50,
+          59,
+          13,
+          26,
+          29,
+          34,
+          35
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          79,
+          6,
+          50,
+          83,
+          102
+        ],
+        "top10": [
+          79,
+          6,
+          111,
+          50,
+          59,
+          13,
+          26,
+          29,
+          34,
+          35
+        ]
+      }
+    },
+    "banking_direct_vs_fintech": {
+      "Поиск по словам": {
+        "selected_order": [
+          13,
+          62,
+          102
+        ],
+        "top10": [
+          42,
+          21,
+          45,
+          58,
+          73,
+          85,
+          57,
+          13,
+          26,
+          29
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          13,
+          102,
+          62
+        ],
+        "top10": [
+          61,
+          111,
+          13,
+          26,
+          29,
+          34,
+          35,
+          57,
+          77,
+          79
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          13,
+          102,
+          62
+        ],
+        "top10": [
+          61,
+          111,
+          13,
+          26,
+          29,
+          34,
+          35,
+          57,
+          77,
+          79
+        ]
+      }
+    },
+    "lending_synonyms_and_parent": {
+      "Поиск по словам": {
+        "selected_order": [
+          73,
+          95,
+          102
+        ],
+        "top10": [
+          59,
+          44,
+          35,
+          42,
+          24,
+          73,
+          13,
+          109,
+          117,
+          95
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          95,
+          73,
+          102
+        ],
+        "top10": [
+          95,
+          42,
+          59,
+          20,
+          29,
+          117,
+          34,
+          35,
+          107,
+          2
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          95,
+          73,
+          102
+        ],
+        "top10": [
+          95,
+          42,
+          59,
+          20,
+          29,
+          117,
+          34,
+          35,
+          107,
+          2
+        ]
+      }
+    },
+    "loan_origination_vs_lending": {
+      "Поиск по словам": {
+        "selected_order": [
+          2,
+          109,
+          62
+        ],
+        "top10": [
+          2,
+          35,
+          1,
+          26,
+          103,
+          115,
+          49,
+          60,
+          93,
+          59
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          2,
+          109,
+          62
+        ],
+        "top10": [
+          35,
+          2,
+          20,
+          95,
+          42,
+          117,
+          59,
+          107,
+          34,
+          29
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          2,
+          109,
+          62
+        ],
+        "top10": [
+          35,
+          2,
+          117,
+          44,
+          20,
+          95,
+          42,
+          59,
+          107,
+          34
+        ]
+      }
+    },
+    "ecommerce_wording_variants": {
+      "Поиск по словам": {
+        "selected_order": [
+          104,
+          25,
+          60,
+          62
+        ],
+        "top10": [
+          35,
+          41,
+          48,
+          15,
+          113,
+          50,
+          85,
+          104,
+          34,
+          88
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          60,
+          25,
+          104,
+          62
+        ],
+        "top10": [
+          35,
+          41,
+          48,
+          85,
+          113,
+          115,
+          24,
+          36,
+          60,
+          65
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          60,
+          25,
+          104,
+          62
+        ],
+        "top10": [
+          35,
+          41,
+          48,
+          115,
+          24,
+          36,
+          60,
+          65,
+          67,
+          69
+        ]
+      }
+    },
+    "mes_vs_planning": {
+      "Поиск по словам": {
+        "selected_order": [
+          20,
+          38,
+          79
+        ],
+        "top10": [
+          20,
+          98,
+          49,
+          84,
+          72,
+          48,
+          85,
+          6,
+          15,
+          23
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          20,
+          79,
+          38
+        ],
+        "top10": [
+          69,
+          8,
+          20,
+          107,
+          64,
+          15,
+          12,
+          35,
+          101,
+          34
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          20,
+          79,
+          38
+        ],
+        "top10": [
+          20,
+          69,
+          8,
+          107,
+          64,
+          15,
+          12,
+          35,
+          101,
+          34
+        ]
+      }
+    },
+    "planning_vs_mes": {
+      "Поиск по словам": {
+        "selected_order": [
+          38,
+          20,
+          31
+        ],
+        "top10": [
+          38,
+          5,
+          87,
+          106,
+          13,
+          51,
+          41,
+          63,
+          7,
+          96
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          38,
+          20,
+          31
+        ],
+        "top10": [
+          38,
+          41,
+          94,
+          5,
+          80,
+          103,
+          106,
+          110,
+          56,
+          37
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          38,
+          20,
+          31
+        ],
+        "top10": [
+          38,
+          41,
+          94,
+          5,
+          80,
+          103,
+          106,
+          110,
+          56,
+          37
+        ]
+      }
+    },
+    "medical_records_vs_general_medicine": {
+      "Поиск по словам": {
+        "selected_order": [
+          31,
+          30,
+          88,
+          62
+        ],
+        "top10": [
+          31,
+          30,
+          88,
+          5,
+          12,
+          76,
+          20,
+          43,
+          87,
+          41
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          31,
+          30,
+          88,
+          62
+        ],
+        "top10": [
+          31,
+          30,
+          13,
+          88,
+          49,
+          44,
+          69,
+          43,
+          79,
+          82
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          31,
+          88,
+          30,
+          62
+        ],
+        "top10": [
+          31,
+          88,
+          30,
+          13,
+          49,
+          44,
+          69,
+          43,
+          79,
+          82
+        ]
+      }
+    },
+    "healthcare_industry_and_narrower_evidence": {
+      "Поиск по словам": {
+        "selected_order": [
+          30,
+          31,
+          62
+        ],
+        "top10": [
+          30,
+          88,
+          31,
+          92,
+          38,
+          10,
+          51,
+          20,
+          28,
+          76
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          30,
+          31,
+          62
+        ],
+        "top10": [
+          30,
+          31,
+          88,
+          13,
+          69,
+          49,
+          107,
+          65,
+          43,
+          79
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          30,
+          31,
+          62
+        ],
+        "top10": [
+          30,
+          31,
+          88,
+          13,
+          69,
+          49,
+          107,
+          65,
+          43,
+          79
+        ]
+      }
+    },
+    "billing_vs_fintech": {
+      "Поиск по словам": {
+        "selected_order": [
+          56,
+          76,
+          102
+        ],
+        "top10": [
+          2,
+          48,
+          56,
+          114,
+          76,
+          14,
+          108,
+          70,
+          101,
+          51
+        ]
+      },
+      "Эмбеддинги фраз": {
+        "selected_order": [
+          56,
+          102,
+          76
+        ],
+        "top10": [
+          2,
+          48,
+          56,
+          114,
+          14,
+          29,
+          115,
+          6,
+          8,
+          15
+        ]
+      },
+      "Проверка по карточке": {
+        "selected_order": [
+          56,
+          76,
+          102
+        ],
+        "top10": [
+          2,
+          48,
+          56,
+          114,
+          76,
+          14,
+          29,
+          115,
+          6,
+          8
+        ]
+      }
+    }
+  },
+  "demo": [
+    {
+      "id": 79,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 1,
+      "search_score": 0.6990362405776978,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "confirmed",
+          "quote": "интеграция банковского ядра",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": "ядра",
+            "банковский контекст": "банковского"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "интеграция банковского ядра",
+          "unit": 4,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.8213233351707458,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские интеграции",
+          "found": {
+            "интеграция": "интеграции",
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские интеграции",
+          "unit": 3,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.7957041263580322,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция банковских сервисов",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": "банковских"
+          },
+          "missing": [
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "интеграция банковских сервисов",
+          "unit": 5,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.7848283350467682,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.778637707233429,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.7679487466812134,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "расчетные операции банков",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банков"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "расчетные операции банков",
+          "unit": 1,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.7392062544822693,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские услуги",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 2,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.7130942344665527,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковская аналитика",
+          "found": {
+            "финансовый контекст": "банковская"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковская аналитика",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковская аналитика",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковская"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковская аналитика",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6981658339500427,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция с внешними B2B",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция с внешними B2B и B2G системами",
+          "unit": 2,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6917839348316193,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковская отрасль",
+          "found": {
+            "финансовый контекст": "банковская"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковская отрасль",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковская отрасль",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковская"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковская отрасль",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6732376217842102,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 7,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "финтех",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 7,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6686672568321228,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковское кредитование",
+          "found": {
+            "финансовый контекст": "банковское"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковское кредитование",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковское кредитование",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковское"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковское кредитование",
+          "unit": 3,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6654691696166992,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский клиентский crm",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский клиентский crm",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский клиентский crm",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский клиентский crm",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6537440270185471,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские услуги по обработке исполнительных документов",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские услуги по обработке исполнительных документов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские интеграционные шлюзы",
+          "found": {
+            "интеграция": "интеграционные",
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские интеграционные шлюзы",
+          "unit": 1,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6484125107526779,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковское кредитование корпораций",
+          "found": {
+            "финансовый контекст": "банковское"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковское кредитование корпораций",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковское кредитование корпораций",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковское"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковское кредитование корпораций",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6402859687805176,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "финтех",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6386252641677856,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский онлайн-банкинг",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский онлайн-банкинг",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция банковских систем",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": "банковских"
+          },
+          "missing": [
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "интеграция банковских систем",
+          "unit": 4,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6372892409563065,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "цифровой онбординг банковских клиентов",
+          "found": {
+            "финансовый контекст": "банковских"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "цифровой онбординг банковских клиентов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "цифровой онбординг банковских клиентов",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковских"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "цифровой онбординг банковских клиентов",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6356849372386932,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6295515298843384,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "финтех",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6150525212287903,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "финтех",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6150525212287903,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "финтех",
+          "found": {
+            "финансовый контекст": "финтех"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "финтех",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "финтех",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6061600744724274,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.6030076444149017,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "кредитный crm",
+          "found": {
+            "финансовый контекст": "кредитный"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "кредитный crm",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "внутреннее банковское мобильное приложение",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковское"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "внутреннее банковское мобильное приложение",
+          "unit": 2,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5935482680797577,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "кредитное оформление",
+          "found": {
+            "финансовый контекст": "кредитное"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "кредитное оформление",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "кредитное оформление",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5884725749492645,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5871579647064209,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковская индустрия",
+          "found": {
+            "финансовый контекст": "банковская"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковская индустрия",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковская индустрия",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковская"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковская индустрия",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5814496129751205,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковская отрасль",
+          "found": {
+            "финансовый контекст": "банковская"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковская отрасль",
+          "unit": 6,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковская отрасль",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковская"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковская отрасль",
+          "unit": 6,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5739458203315735,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банкинг",
+          "found": {
+            "финансовый контекст": "банкинг"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банкинг",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банкинг",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банкинг"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банкинг",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5739458203315735,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банкинг",
+          "found": {
+            "финансовый контекст": "банкинг"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банкинг",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банкинг",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банкинг"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банкинг",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5708437860012054,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские услуги",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские услуги",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5701723694801331,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковская отрасль",
+          "found": {
+            "финансовый контекст": "банковская"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковская отрасль",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковская отрасль",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковская"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковская отрасль",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5606631338596344,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские услуги",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские услуги",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5404743254184723,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские финансовые сервисы",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские финансовые сервисы",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские финансовые сервисы",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские финансовые сервисы",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.529555931687355,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.529555931687355,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковский сектор",
+          "found": {
+            "финансовый контекст": "банковский"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковский сектор",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковский"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковский сектор",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5191724002361298,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские услуги",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские услуги",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.5191724002361298,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские услуги",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские услуги",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские услуги",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.49689599871635437,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "электронная торговая платформа банка",
+          "found": {
+            "финансовый контекст": "банка"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "электронная торговая платформа банка",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "электронная торговая платформа банка",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банка"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "электронная торговая платформа банка",
+          "unit": 1,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.47923994064331055,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "выдача кредитов",
+          "found": {
+            "финансовый контекст": "кредитов"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "выдача кредитов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "выдача кредитов",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.4623453617095947,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "онлайн-кредитование",
+          "found": {
+            "финансовый контекст": "кредитование"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "онлайн-кредитование",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "eligible": true,
+      "required_confirmed": 1,
+      "desired_confirmed": 0,
+      "search_score": 0.4258456826210022,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "confirmed",
+          "quote": "банковские цифровые сервисы",
+          "found": {
+            "финансовый контекст": "банковские"
+          },
+          "missing": [],
+          "warning": null,
+          "source_text": "банковские цифровые сервисы",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "банковские цифровые сервисы",
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": "банковские"
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС"
+          ],
+          "warning": null,
+          "source_text": "банковские цифровые сервисы",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.6190269589424133,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "электронная коммерция",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5610504448413849,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "биллинг",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "биллинг",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5602622032165527,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные системы",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные системы",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "системная интеграция",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "системная интеграция",
+          "unit": 3,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5545551478862762,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные системы",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные системы",
+          "unit": 4,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "корпоративные веб‑приложения",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5482498705387115,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "торговая платформа",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "торговая платформа",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5455171167850494,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "биллинг",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "биллинг",
+          "unit": 2,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "управление строительными объектами",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5411462783813477,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce retail",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.528598427772522,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 5,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "социальные сети",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5234863758087158,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "маркетплейс цифровых товаров",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "маркетплейс цифровых товаров",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5143393576145172,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "финансовый документооборот",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.5040163695812225,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "обработка платежей",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "обработка платежей",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция микросервисов",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция микросервисов",
+          "unit": 7,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4943181872367859,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "системная интеграция",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "системная интеграция",
+          "unit": 2,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.49205896258354187,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "торговая платформа финансовых инструментов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "торговая платформа финансовых инструментов",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4902670085430145,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "ритейл",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "ритейл",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4535343050956726,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-магазин электротехнической продукции",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4492515027523041,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "разработка программного обеспечения",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграционные сервисы",
+          "found": {
+            "интеграция": "интеграционные",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграционные сервисы",
+          "unit": 3,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.444815456867218,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce поиск",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce поиск",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.44352179765701294,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4359743595123291,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "онлайн-образование",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция календарей в образовании",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция календарей в образовании",
+          "unit": 4,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.43587909638881683,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "дистрибуция автозапчастей",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "дистрибуция автозапчастей",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4264206886291504,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции в интернет-магазине",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции в интернет-магазине",
+          "unit": 2,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-торговля",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4244344234466553,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция с crm",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция с crm",
+          "unit": 4,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4237386882305145,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные системы",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные системы",
+          "unit": 1,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-компания",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.419381320476532,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные системы",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные системы",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "разработка программного обеспечения",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4115234315395355,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "розничная торговля строительными материалами",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "розничная торговля строительными материалами",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.41005103290081024,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "мелкий бизнес",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "crm интеграция",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "crm интеграция",
+          "unit": 4,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4066893458366394,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные системы",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные системы",
+          "unit": 4,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "цифровые страховые продукты",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4053789973258972,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции",
+          "unit": 3,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "разработка программного обеспечения",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.4045422375202179,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "управление персоналом",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "управление персоналом",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.40386688709259033,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "корпоративная система управления знаниями",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "корпоративная система управления знаниями",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.39612582325935364,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-торговля",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция систем",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция систем",
+          "unit": 5,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3949415683746338,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "платёжные операции в онлайн‑ретейле",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции в онлайн‑ретейле",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "платёжные операции в онлайн‑ретейле",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3940388113260269,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "сервис речных круизов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "сервис речных круизов",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.39391176402568817,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "автомобильные перевозки",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "автомобильные перевозки",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.39049962162971497,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "государственные онлайн-услуги",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция государственных систем",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция государственных систем",
+          "unit": 2,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3889080882072449,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "строительство",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "строительство",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.38598664104938507,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "автоматизация бизнес‑процессов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция данных",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция данных и сервисов",
+          "unit": 1,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.38501979410648346,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "цифровая платформа недвижимости",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "системная интеграция",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "системная интеграция",
+          "unit": 1,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3819408267736435,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "страхование",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "страхование",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.38151368498802185,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "авиационная отрасль",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "авиационная отрасль",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.36329810321331024,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "медицинские информационные системы",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция с госинформационными системами",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция с госинформационными системами",
+          "unit": 2,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3626001477241516,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "автоматизация сбора и анализа данных",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция внешних сервисов",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция внешних сервисов",
+          "unit": 1,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3533698320388794,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-торговля",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-торговля",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.35192109644412994,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "маркетинговая автоматизация",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "маркетинговая автоматизация",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.34991854429244995,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "производство металлических изделий",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "производство металлических изделий",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3424614369869232,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "образовательные онлайн-платформы",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "образовательные онлайн-платформы",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.33566661179065704,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "review",
+          "quote": "биллинговые операции в телекоммуникациях",
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "биллинговые операции в телекоммуникациях",
+          "unit": 5,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "онлайн‑рынок недвижимости",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.33058156073093414,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "страхование",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция страховых сервисов",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция страховых сервисов",
+          "unit": 5,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.32707980275154114,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "онлайн туризм",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "онлайн туризм",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.32608023285865784,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "продуктовая розничная сеть",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "продуктовая розничная сеть",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.32266809046268463,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-сервисы",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-сервисы",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.31165044009685516,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "формирование медицинской отчетности",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "формирование медицинской отчетности",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.31123489141464233,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "налоговые сервисы",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "налоговые сервисы",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.30971385538578033,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "review",
+          "quote": "интеграция ERP‑систем с маркетплейсами",
+          "found": {
+            "интеграция": "интеграция",
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интеграция ERP‑систем с маркетплейсами",
+          "unit": 3,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3083893358707428,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "электронная коммерция",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "электронная коммерция",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3063942641019821,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "система управления автопарком",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "система управления автопарком",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.3061310276389122,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "детекция вредоносного программного обеспечения",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "детекция вредоносного программного обеспечения",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.30405350029468536,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "производство мультимедиа‑контента",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "производство мультимедиа‑контента",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.29709184169769287,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "страхование",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "страхование",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.29628993570804596,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "услуги переводов",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "услуги переводов",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.2888864204287529,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "цифровые государственные услуги",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "цифровые государственные услуги",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.28801122307777405,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "информационная безопасность",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "информационная безопасность",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.28779609501361847,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-торговля",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "интернет-торговля",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.2876971811056137,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.28332531452178955,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "цифровой ассистент госуслуг",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "цифровой ассистент госуслуг",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.27416348457336426,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "ритейл электроники",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "ритейл электроники",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.2628246769309044,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "транспортная отрасль",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "транспортная отрасль",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.24960365891456604,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "мобильная связь",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "мобильная связь",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.2492254674434662,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "онлайн-игровая платформа",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "онлайн-игровая платформа",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.2442360818386078,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "система управления контентом",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "система управления контентом",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.2335200235247612,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "e-commerce",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.22823596000671387,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "crm система",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "crm система",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.21792436391115189,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "транспортная логистика",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "транспортная логистика",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.20508771017193794,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "sports technology",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "sports technology",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "eligible": false,
+      "required_confirmed": 0,
+      "desired_confirmed": 0,
+      "search_score": 0.20380885899066925,
+      "checks": [
+        {
+          "card": "fintech",
+          "required": true,
+          "text": "Опыт в финтехе",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "финансовый контекст": null
+          },
+          "missing": [
+            "финансовый контекст"
+          ],
+          "warning": null,
+          "source_text": "розничная торговля одеждой и аксессуарами",
+          "unit": 0,
+          "project_id": null
+        },
+        {
+          "card": "bank_core_integration",
+          "required": false,
+          "text": "Опыт интеграции банковского ядра",
+          "status": "unknown",
+          "quote": null,
+          "found": {
+            "интеграция": null,
+            "ядро или АБС": null,
+            "банковский контекст": null
+          },
+          "missing": [
+            "интеграция",
+            "ядро или АБС",
+            "банковский контекст"
+          ],
+          "warning": null,
+          "source_text": "розничная торговля одеждой и аксессуарами",
+          "unit": 0,
+          "project_id": null
+        }
+      ]
+    }
+  ],
+  "request": {
+    "text": "Нужен опыт в финтехе. Желателен опыт интеграции банковского ядра.",
+    "requirements": [
+      {
+        "card": "fintech",
+        "required": true
+      },
+      {
+        "card": "bank_core_integration",
+        "required": false
+      }
+    ]
+  },
+  "model": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "repository": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+    "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+    "weights_sha256": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99",
+    "packages": {
+      "fastembed": "0.9.0",
+      "onnxruntime": "1.31.0",
+      "numpy": "2.5.4"
+    },
+    "cache_hit": true,
+    "device": "CPU",
+    "dimensions": 384,
+    "limit_tokens": 128
+  },
+  "timing": {
+    "model_or_cache_load_seconds": 0.7069060000012541,
+    "repeat_profiles": {
+      "rows": 10000,
+      "seconds": 2.512564900000143,
+      "note": "Повтор исходных 117 профилей. Замер проверки карточек без извлечения и расчёта эмбеддингов."
+    }
+  },
+  "case_count": 10,
+  "judgment_count": 34,
+  "scope": "Авторские примеры. Оценка только внутри выбранных подмножеств, не на всех кандидатах.",
+  "approach": "Карточка проверяет нужные признаки в одной исходной фразе. Общий граф не строится."
+}
