@@ -61,6 +61,16 @@ class EvidenceTests(unittest.TestCase):
         text = 'Никогда не выполнял интеграцию банковского ядра'
         self.assertNotEqual(check_phrase(text, self.core)['status'], 'confirmed')
 
+    def test_english_negation_needs_review(self):
+        for text in ['Did not integrate bank core', 'No bank core integration experience',
+                     'Never worked on bank core integration', 'Without bank core integration experience',
+                     "I didn't integrate bank core"]:
+            with self.subTest(text=text):
+                self.assertEqual(check_phrase(text, self.core)['status'], 'review')
+
+    def test_english_not_only_is_not_negation(self):
+        self.assertEqual(check_phrase('Not only bank core integration', self.core)['status'], 'confirmed')
+
     def test_unknown_is_not_forced_into_a_known_domain(self):
         self.assertEqual(check_phrase('онлайн обучение музыке', self.core)['status'], 'unknown')
 
