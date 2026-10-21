@@ -1,0 +1,7 @@
+{
+  "text": "Нужен опыт в финтехе. Желателен опыт интеграции банковского ядра.",
+  "requirements": [
+    {"card": "fintech", "required": true},
+    {"card": "bank_core_integration", "required": false}
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "provenance": {
+    "type": "Авторские примеры для проверки, не экспертная разметка",
+    "scope": "Для каждого запроса размечено только несколько кандидатов. По этим примерам нельзя оценить полноту поиска во всей базе."
+  },
+  "cases": [
+    {
+      "id": "core_banking_direct_vs_broad",
+      "description": "Distinguish explicit bank-core integration from broad banking or fintech evidence.",
+      "requirements": [
+        {
+          "card": "bank_core_integration",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 6,
+          "grade": 1,
+          "reason": "В исходной строке: банковские интеграции"
+        },
+        {
+          "candidate_id": 50,
+          "grade": 1,
+          "reason": "В исходной строке: интеграция банковских систем"
+        },
+        {
+          "candidate_id": 79,
+          "grade": 2,
+          "reason": "В исходной строке: интеграция банковского ядра"
+        },
+        {
+          "candidate_id": 83,
+          "grade": 1,
+          "reason": "В исходной строке: банковский сектор"
+        },
+        {
+          "candidate_id": 102,
+          "grade": 1,
+          "reason": "В исходной строке: финтех"
+        }
+      ],
+      "expected_confirmed": [
+        79
+      ]
+    },
+    {
+      "id": "banking_direct_vs_fintech",
+      "description": "Check whether direct banking evidence outranks a broad fintech label for a banking requirement.",
+      "requirements": [
+        {
+          "card": "banking",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 13,
+          "grade": 2,
+          "reason": "В исходной строке: банковский сектор"
+        },
+        {
+          "candidate_id": 102,
+          "grade": 1,
+          "reason": "В исходной строке: финтех"
+        },
+        {
+          "candidate_id": 62,
+          "grade": 0,
+          "reason": "В исходной строке: транспортно-логистические услуги"
+        }
+      ],
+      "expected_confirmed": [
+        13
+      ]
+    },
+    {
+      "id": "lending_synonyms_and_parent",
+      "description": "Recognize lending wording variants while keeping a fintech-only profile insufficient.",
+      "requirements": [
+        {
+          "card": "lending",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 73,
+          "grade": 2,
+          "reason": "В исходной строке: микрокредитование"
+        },
+        {
+          "candidate_id": 95,
+          "grade": 2,
+          "reason": "В исходной строке: выдача кредитов"
+        },
+        {
+          "candidate_id": 102,
+          "grade": 1,
+          "reason": "В исходной строке: финтех"
+        }
+      ],
+      "expected_confirmed": [
+        73,
+        95
+      ]
+    },
+    {
+      "id": "loan_origination_vs_lending",
+      "description": "Separate credit application processing from general lending experience.",
+      "requirements": [
+        {
+          "card": "loan_origination",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 2,
+          "grade": 2,
+          "reason": "В исходной строке: анализ кредитных заявок"
+        },
+        {
+          "candidate_id": 109,
+          "grade": 1,
+          "reason": "В исходной строке: кредитование крупного бизнеса"
+        },
+        {
+          "candidate_id": 62,
+          "grade": 0,
+          "reason": "В исходной строке: автомобильные перевозки"
+        }
+      ],
+      "expected_confirmed": [
+        2
+      ]
+    },
+    {
+      "id": "ecommerce_wording_variants",
+      "description": "Treat common Russian and English e-commerce wording as evidence for the same domain.",
+      "requirements": [
+        {
+          "card": "ecommerce",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 60,
+          "grade": 2,
+          "reason": "В исходной строке: e-commerce"
+        },
+        {
+          "candidate_id": 25,
+          "grade": 2,
+          "reason": "В исходной строке: интернет-торговля"
+        },
+        {
+          "candidate_id": 104,
+          "grade": 2,
+          "reason": "В исходной строке: онлайн‑ритейл"
+        },
+        {
+          "candidate_id": 62,
+          "grade": 0,
+          "reason": "В исходной строке: складские услуги, транспортно-логистические услуги"
+        }
+      ],
+      "expected_confirmed": [
+        60,
+        25,
+        104
+      ]
+    },
+    {
+      "id": "mes_vs_planning",
+      "description": "Do not treat production planning alone as confirmation of MES experience.",
+      "requirements": [
+        {
+          "card": "mes",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 20,
+          "grade": 2,
+          "reason": "В исходной строке: mes система"
+        },
+        {
+          "candidate_id": 38,
+          "grade": 1,
+          "reason": "В исходной строке: производственное планирование"
+        },
+        {
+          "candidate_id": 79,
+          "grade": 0,
+          "reason": "В исходной строке: интеграция банковского ядра"
+        }
+      ],
+      "expected_confirmed": [
+        20
+      ]
+    },
+    {
+      "id": "planning_vs_mes",
+      "description": "For a production-planning requirement, planning evidence is direct while MES evidence is related only.",
+      "requirements": [
+        {
+          "card": "production_planning",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 38,
+          "grade": 2,
+          "reason": "В исходной строке: производственное планирование"
+        },
+        {
+          "candidate_id": 20,
+          "grade": 1,
+          "reason": "В исходной строке: mes система"
+        },
+        {
+          "candidate_id": 31,
+          "grade": 0,
+          "reason": "В исходной строке: медицинская информационная система"
+        }
+      ],
+      "expected_confirmed": [
+        38
+      ]
+    },
+    {
+      "id": "medical_records_vs_general_medicine",
+      "description": "Require evidence of medical-record systems rather than broad healthcare exposure.",
+      "requirements": [
+        {
+          "card": "medical_records",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 31,
+          "grade": 2,
+          "reason": "В исходной строке: ведении медицинских записей"
+        },
+        {
+          "candidate_id": 88,
+          "grade": 2,
+          "reason": "В исходной строке: электронная медицинская карта"
+        },
+        {
+          "candidate_id": 30,
+          "grade": 1,
+          "reason": "В исходной строке: медицина, медицинские учреждения, медицинская информационная система"
+        },
+        {
+          "candidate_id": 62,
+          "grade": 0,
+          "reason": "В исходной строке: автомобильные перевозки"
+        }
+      ],
+      "expected_confirmed": [
+        31,
+        88
+      ]
+    },
+    {
+      "id": "healthcare_industry_and_narrower_evidence",
+      "description": "Accept direct healthcare evidence and narrower medical-system evidence for a broad healthcare requirement.",
+      "requirements": [
+        {
+          "card": "healthcare",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 30,
+          "grade": 2,
+          "reason": "В исходной строке: медицина"
+        },
+        {
+          "candidate_id": 31,
+          "grade": 2,
+          "reason": "В исходной строке: медицинская информационная система"
+        },
+        {
+          "candidate_id": 62,
+          "grade": 0,
+          "reason": "В исходной строке: транспортно-логистические услуги"
+        }
+      ],
+      "expected_confirmed": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": "billing_vs_fintech",
+      "description": "Keep billing as a distinct business process from fintech or payment experience.",
+      "requirements": [
+        {
+          "card": "billing",
+          "required": true
+        }
+      ],
+      "judgments": [
+        {
+          "candidate_id": 56,
+          "grade": 2,
+          "reason": "В исходной строке: биллинг"
+        },
+        {
+          "candidate_id": 76,
+          "grade": 2,
+          "reason": "В исходной строке: биллинговые операции в телекоммуникациях"
+        },
+        {
+          "candidate_id": 102,
+          "grade": 0,
+          "reason": "В исходной строке: финтех, платёжные операции"
+        }
+      ],
+      "expected_confirmed": [
+        56,
+        76
+      ]
+    }
+  ]
+}
