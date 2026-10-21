@@ -7,6 +7,14 @@ from data import normalize
 
 NEGATION = re.compile(r'\bне\s+(?:занимал|работал|интегрировал|участвовал)\w*|'
                       r'\bнет\s+опыт\w*|\bбез\s+опыт\w*')
+NOT_ONLY = re.compile(r'\b(?:не\s+только|not\s+only)\b')
+POSSIBLE_NEGATION = re.compile(r"\b(?:не|нет|никогда|без|not|no|never|without)\b|n['’]t\b")
+CLAUSE_SEPARATOR = re.compile(r'(,|\b(?:но|однако|зато|и|but|however|and)\b)', re.I)
+CONTRAST = re.compile(r'^(?:но|однако|зато|but|however)$', re.I)
+
+
+def _has_negation(text):
+    return POSSIBLE_NEGATION.search(NOT_ONLY.sub('', text)) is not None
 
 
 def load_cards(path):
@@ -30,8 +38,7 @@ def _check_clause(phrase, card):
     warning = None
     if not missing:
         status = 'contradicted' if NEGATION.search(text) else 'confirmed'
-        remainder = re.sub(r'\b(?:не\s+только|not\s+only)\b', '', text)
-        if status == 'confirmed' and re.search(r"\b(?:не|нет|никогда|без|not|no|never|without)\b|n['’]t\b", remainder):
+        if status == 'confirmed' and _has_negation(text):
             status, warning = 'review', 'Возможное отрицание. Нужен просмотр текста.'
     elif any(found.values()) or any(normalize(term) in text for term in card.get('review_terms', [])):
         status = 'review'
@@ -42,9 +49,25 @@ def _check_clause(phrase, card):
 
 
 def check_phrase(phrase, card):
-    """Сначала отделяем простые части фразы. Это эвристика, не синтаксический разбор."""
-    clauses = [s.strip() for s in re.split(r'[;.!?,]|\b(?:но|однако|зато|и)\b', phrase, flags=re.I) if s.strip()]
-    checks = [_check_clause(clause, card) for clause in clauses]
+    """Признаки не склеиваются, общее отрицание в перечислении требует просмотра."""
+    checks = []
+    for sentence in re.split(r'[;.!?]', phrase):
+        negated_context = False
+        for part in CLAUSE_SEPARATOR.split(sentence):
+            clause = part.strip()
+            if not clause:
+                continue
+            if CONTRAST.fullmatch(clause):
+                negated_context = False
+                continue
+            if clause.casefold() in (',', 'и', 'and'):
+                continue
+            check = _check_clause(clause, card)
+            if negated_context and check['status'] == 'confirmed':
+                check = {**check, 'status': 'review', 'quote': sentence.strip(),
+                         'warning': 'В предыдущей части перечисления есть отрицание. Нужен просмотр текста.'}
+            checks.append(check)
+            negated_context = negated_context or _has_negation(normalize(clause))
     if not checks:
         checks = [_check_clause(phrase, card)]
     priority = {'confirmed': 3, 'contradicted': 2, 'review': 1, 'unknown': 0}

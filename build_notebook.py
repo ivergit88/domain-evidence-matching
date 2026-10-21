@@ -13,12 +13,15 @@ ROOT = Path(__file__).resolve().parent
 def build():
     md, code = nbf.v4.new_markdown_cell, nbf.v4.new_code_cell
     notebook = nbf.v4.new_notebook(cells=[
-        md('# Проверка опыта по требованиям вакансии\n\n'
+        md('# Приложение: проверка опыта по требованиям вакансии\n\n'
+           'Основной ответ и предложенная архитектура находятся в [README](README.md). '
+           'Здесь показан вспомогательный эксперимент на готовых фразах из SQL.\n\n'
            'Я начал с простого условия: нужные признаки должны быть в одной исходной фразе. '
            'Для каждого требования есть своя карточка. Общий граф доменов я не строю. '
            'Эмбеддинги помогают найти похожий опыт, затем карточка проверяет, хватает ли фактов.\n\n'
            'В SQL 117 кандидатов и 695 упоминаний. Полных резюме и проектов в нём нет.'),
-        code("from pathlib import Path\nimport sys, os, json\n"
+        code("from pathlib import Path\nimport sys, os, json, warnings\n"
+             "warnings.filterwarnings('ignore', message='IProgress not found.*')\n"
              "ROOT = Path.cwd()\nsys.path.insert(0, str(ROOT))\n"
              "from data import load_candidates\nfrom matcher import load_cards, check_phrase, rank_candidates\n"
              "from experiment import run\n"
@@ -43,6 +46,8 @@ def build():
            'настоящего резюме.'),
         code("from matcher import check_candidate\n"
              "for text in ['интеграцией банковского ядра не занимался',\n"
+             "             'Не работал с CRM и интеграцией банковского ядра',\n"
+             "             'интеграция ядра системы банкротства',\n"
              "             'интеграция ABS автомобиля', 'тестирование АБС банка']:\n"
              "    print(text, check_phrase(text, core)['status'])\n"
              "split = [{'text': 'интеграция CRM', 'project_id': 'A'},\n"
@@ -91,7 +96,7 @@ def build():
         os.environ['DOMAIN_CACHE'] = str(ROOT.parent/'.model-cache')
     path = ROOT/'solution.ipynb'
     try:
-        NotebookClient(notebook, timeout=300, kernel_name='local-project',
+        NotebookClient(notebook, timeout=300, kernel_name='local-project', record_timing=False,
                        resources={'metadata': {'path': str(ROOT)}}).execute()
     finally:
         nbf.write(notebook, path)
